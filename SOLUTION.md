@@ -1,35 +1,38 @@
 # Create S3 Bucket Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date:** [Date]
+**Student Name: Balint Lojt
+**Date: 09/07/2026
 
 ---
 
 ## Exercise 1: Bucket Creation
 
-**Bucket Name:** [your-name-bootcamp-demo-2024]  
+**Bucket Name:** [balint-lojt-bootcamp-demo-2024]  
 **Region:** [us-east-1]
 
-![Bucket Created](screenshots/bucket-created.png)
+<img width="1860" height="770" alt="bucket-created" src="https://github.com/user-attachments/assets/419f7564-352e-4dc1-aeec-d61ca4b24d1f" />
+
 
 ---
 
 ## Exercise 2: Object Uploads
 
 ### Files Uploaded:
-1. [File 1 name and type]
-2. [File 2 name and type]
-3. [File 3 name and type]
+1. sage.jpg
+2. README.txt
+3. Balint_Lojt_CV_teach.pdf
 
 ### Folder Structure:
-![Folder Structure](screenshots/folder-structure.png)
+<img width="854" height="165" alt="folder-structure" src="https://github.com/user-attachments/assets/3a49d46b-fdb6-45db-a252-45581d148d82" />
+
 
 **Folders Created:**
 - images/
 - documents/
 - backups/
 
-![Files Uploaded](screenshots/files-uploaded.png)
+<img width="1110" height="514" alt="files-uploaded" src="https://github.com/user-attachments/assets/7b16ed88-e752-4f8a-91b3-eb0b339f7c1c" />
+
 
 ---
 
