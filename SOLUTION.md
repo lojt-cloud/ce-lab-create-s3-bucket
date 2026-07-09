@@ -99,14 +99,14 @@
 
 ## Exercise 7: Metrics
 
-![Bucket Metrics](screenshots/bucket-metrics.png)
+<img width="656" height="257" alt="bucket-metrics" src="https://github.com/user-attachments/assets/42e31215-4ade-4676-ac97-aab99aab8cd2" />
+
 
 **Bucket Statistics:**
-- Total objects: [X]
-- Total size: [X GB]
-- Storage class distribution: [Details]
-
----
+- Total objects: 6
+- Total size: 0.004 GB
+- Storage class distribution: Standard storage
+No metrics available since it hasn't reached the 24 hour time limit to create one.
 
 ## Bonus Challenges
 
@@ -114,39 +114,39 @@
 ![Lifecycle Policy](screenshots/lifecycle-policy.png)
 
 **Policy Rules:**
-- [x] Transition to Standard-IA: 30 days
-- [x] Transition to Glacier: 90 days
-- [x] Delete: 365 days
+- [] Transition to Standard-IA: 30 days
+- [] Transition to Glacier: 90 days
+- [] Delete: 365 days
 
----
+
 
 ## CLI Outputs
 
 See `cli-outputs.txt` for all command outputs.
+N/A
 
----
 
 ## Reflection
 
 **What did you learn about S3?**
-[Your answer]
+S3 buckets can be customised using both the CLI and the console, which makes managing them flexible. I can change their properties to do things like add encryption for security, switch the storage tier depending on how frequently the files are being accessed, and turn on versioning to track file history. Also, I found that the sync function helps a lot when you need to quickly create backups for local projects.
 
 **When would you use different storage classes?**
-[Your answer]
+It all depends on how frequently the data is accessed, so you can put files into different classes to keep things cost-efficient. For example, I’d keep active daily files in Standard since it’s fast and has no retrieval fees. But for older backups or documents I only need to look at once a month, I'd use Standard Infrequent Access to cut costs. If I have compliance data or legal backups that I rarely look at, I'd put them into Glacier because the storage is cheap. If I'm not totally sure how often data will be used, Intelligent-Tiering automatically shifts things around for me to save money.
 
 ---
 
 ## Checklist
 
-- [ ] Bucket created
-- [ ] Objects uploaded (console and CLI)
-- [ ] Folders created
-- [ ] Storage classes configured
-- [ ] Versioning enabled and tested
-- [ ] Encryption enabled
-- [ ] Tags added
-- [ ] Sync completed
-- [ ] All screenshots captured
-- [ ] Bucket cleaned up (deleted)
+- [x] Bucket created
+- [x] Objects uploaded (console and CLI)
+- [x] Folders created
+- [x] Storage classes configured
+- [x] Versioning enabled and tested
+- [x] Encryption enabled
+- [x] Tags added
+- [x] Sync completed
+- [x] All screenshots captured
+- [x] Bucket cleaned up (deleted)
 
-**Completed By:** [Your Name]
+**Completed By: Balint Lojt
