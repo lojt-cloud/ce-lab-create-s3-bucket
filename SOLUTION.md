@@ -77,19 +77,23 @@
 ## Exercise 5: Download/Delete
 
 **Operations Completed:**
+
 - [x] Downloaded object via console
 - [x] Downloaded object via CLI
 - [x] Deleted object via console
 - [x] Deleted object via CLI
 
----
+
 
 ## Exercise 6: Sync Operations
 
-![Synced Files](screenshots/synced-files.png)
+<img width="980" height="152" alt="synced-files" src="https://github.com/user-attachments/assets/48da45a1-79d4-4f05-b3c2-bbe0f0e981b3" />
+<img width="944" height="77" alt="synced-files-modify" src="https://github.com/user-attachments/assets/7a58a888-c3be-41de-a31f-acb9cb978379" />
 
-**Files Synced:** [Number]  
-**Total Size:** [Size]
+
+
+**Files Synced: 3 
+**Total Size: 73
 
 ---
 
