@@ -38,12 +38,13 @@
 
 ## Exercise 3: Storage Classes
 
-![Storage Classes](screenshots/storage-classes.png)
+<img width="2079" height="689" alt="storage-classes" src="https://github.com/user-attachments/assets/a6c7843d-0564-455f-88b7-760f56753cfb" />
+
 
 **Storage Classes Used:**
-- Standard: [Number] objects
-- Standard-IA: [Number] objects
-- Intelligent-Tiering: [Number] objects
+- Standard: 1 object
+- Standard-IA: 1 object
+- Intelligent-Tiering: 1 object
 
 ---
 
