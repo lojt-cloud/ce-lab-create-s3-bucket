@@ -1,24 +1,39 @@
 # S3 CLI Command Outputs
-
 Save all your S3 CLI command outputs here.
 
----
+# Upload to bucket root
+aws s3 cp cli-test.txt s3://balint-lojt-bootcamp-demo-2024/
+
+# Upload to a folder
+aws s3 cp cli-test.txt s3://balint-lojt-bootcamp-demo-2024/backups/
+
+# List bucket contents
+aws s3 ls s3://balint-lojt-bootcamp-demo-2024/
+
+# List folder contents
+aws s3 ls s3://balint-lojt-bootcamp-demo-2024/backups/
+
 
 ## Upload Commands
 
 ```bash
-$ aws s3 cp cli-test.txt s3://your-name-bootcamp-demo-2024/
-[Paste output]
-```
+$ aws s3 cp cli-test.txt s3://balint-lojt-bootcamp-demo-2024/
+upload: ./cli-test.txt to s3://balint-lojt-bootcamp-demo-2024/backups/cli-test.txt
+
 
 ---
 
 ## List Commands
 
 ```bash
-$ aws s3 ls s3://your-name-bootcamp-demo-2024/
-[Paste output]
-```
+aws s3 ls s3://balint-lojt-bootcamp-demo-2024/
+                           PRE backups/
+                           PRE documents/
+                           PRE images/
+2026-07-09 09:22:05    4137390 Balint_Lojt_CV_teach.pdf
+2026-07-09 09:22:06         37 README.txt
+2026-07-09 09:30:29         16 cli-test.txt
+2026-07-09 09:22:05      87814 sage.jpg
 
 ---
 
