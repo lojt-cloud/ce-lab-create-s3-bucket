@@ -51,20 +51,24 @@
 ## Exercise 4: Bucket Features
 
 ### Versioning:
-![Versioning Enabled](screenshots/versioning-enabled.png)
-![Versions List](screenshots/versions.png)
+<img width="1815" height="351" alt="versioning-enabled" src="https://github.com/user-attachments/assets/f9f78935-f03a-47ca-801e-3b4a0202ad1a" />
 
-**Number of versions created:** [X]
+<img width="1822" height="383" alt="versions" src="https://github.com/user-attachments/assets/8a29bd55-4451-44ad-b9fb-716f80dd0cf2" />
+
+
+**Number of versions created: 2
 
 ### Encryption:
-![Encryption Enabled](screenshots/encryption-enabled.png)
+<img width="2518" height="681" alt="encryption-enabled" src="https://github.com/user-attachments/assets/3f0c49cc-e0a6-4ff5-a265-598585529137" />
 
-**Encryption type:** SSE-S3
+
+**Encryption type: SSE-S3
 
 ### Tags:
-![Tags](screenshots/tags.png)
+<img width="1654" height="465" alt="tags" src="https://github.com/user-attachments/assets/94ed49d3-c3b7-4f5a-ab65-64494fe3a4bf" />
 
-**Tags Added:**
+
+**Tags Added:
 - Environment: Development
 - Project: Bootcamp
 
