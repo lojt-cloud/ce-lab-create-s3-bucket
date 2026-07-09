@@ -39,16 +39,15 @@ aws s3 ls s3://balint-lojt-bootcamp-demo-2024/
 
 ## Sync Commands
 
-```bash
-$ aws s3 sync local-project/ s3://your-name-bootcamp-demo-2024/project/
-[Paste output]
-```
-
----
+`
 
 ## Delete Commands
-
-```bash
-$ aws s3 rm s3://your-name-bootcamp-demo-2024/cli-test.txt
-[Paste output]
-```
+ aws s3 cp s3://balint-lojt-bootcamp-demo-2024/sage.jpg ./downloads/
+download: s3://balint-lojt-bootcamp-demo-2024/sage.jpg to downloads/sage.jpg
+lojtb@LojtLaptop:~$ aws s3 cp s3://balint-lojt-bootcamp-demo-2024/images/ ./downloads/images/ --recursive
+download: s3://balint-lojt-bootcamp-demo-2024/images/01-gettyimages-543183018_resized.jpg to downloads/images/01-gettyimages-543183018_resized.jpg
+lojtb@LojtLaptop:~$ aws s3 rm s3://balint-lojt-bootcamp-demo-2024/cli-test.txt
+delete: s3://balint-lojt-bootcamp-demo-2024/cli-test.txt
+lojtb@LojtLaptop:~$ aws s3 rm s3://balint-lojt-bootcamp-demo-2024/backups/ --recursive
+delete: s3://balint-lojt-bootcamp-demo-2024/backups/cli-test.txt
+delete: s3://balint-lojt-bootcamp-demo-2024/backups/
