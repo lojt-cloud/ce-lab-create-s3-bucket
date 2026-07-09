@@ -38,8 +38,12 @@ aws s3 ls s3://balint-lojt-bootcamp-demo-2024/
 ---
 
 ## Sync Commands
+aws s3 sync local-project/ s3://balint-lojt-bootcamp-demo-2024/project/
 
-`
+upload: local-project/assets/index.html to s3://balint-lojt-bootcamp-demo-2024/project/assets/index.html
+upload: local-project/docs/README.md to s3://balint-lojt-bootcamp-demo-2024/project/docs/README.md
+upload: local-project/src/app.js to s3://balint-lojt-bootcamp-demo-2024/project/src/app.js
+
 
 ## Delete Commands
  aws s3 cp s3://balint-lojt-bootcamp-demo-2024/sage.jpg ./downloads/
